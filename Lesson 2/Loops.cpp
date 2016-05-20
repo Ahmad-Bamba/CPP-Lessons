@@ -5,7 +5,7 @@ int main() {
     //Print out every item in this container
     //on the same line
     std::array<std::string, 5> yummy_food = { "Pizza", "Cake", "Pie",
-                                              "French Toast", "Donuts"};
+                                              "French Toast", "Donuts" };
 
     for(int i = 0; i < yummy_food.size(); i++) {
         if(i == yummy_food.size() - 1) {
